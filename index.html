@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <title>Perfect Computer's</title>
+</head>
+<body>
+<!-- ++++++++++++++++++++++++++++ Header-Section +++++++++++++++++++++++++++++++++++ -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav_logo">
+            <div class="static-text"><span>परफेक्ट</span></div>
+            <ul class="dynamic-text">
+                <li><span>कॉम्प्यूटर माळवाडी-कोतोली</span></li>
+                <li><span>ठिकाण शिक्षणासाठी उत्तम</span></li>
+            </ul>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="#home" class="nav_link active-link" id="left-icon">
+                        <i class='bx bx-home nav_icon'></i>
+                        <span class="nav_name">Home</span>
+                    </a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="about.html" class="nav_link">
+                        <i class='bx bx-user nav_icon'></i>
+                        <span class="nav_name">About</span>
+                    </a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="course.html" class="nav_link">
+                        <i class='bx bxs-book-bookmark nav_icon'></i>
+                        <span class="nav_name">Courses</span>
+                    </a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="contact.html" class="nav_link">
+                        <i class='bx bx-phone nav_icon'></i>
+                        <span class="nav_name">Contact Us</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <img src="images/Logo.jpg" alt="" class="nav_img">
+    </nav>
+</header>
+    <!-- +++++++++++++++++++++ Home +++++++++++++++++++++++++++++ -->
+   <main>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="https://media.istockphoto.com/id/1361844238/photo/high-school-professor-assisting-her-students-in-e-learning-on-laptop-in-the-classroom.jpg?b=1&s=170667a&w=0&k=20&c=j2wWFfXfT4NPEzj2lky8r0A-lv2JldwCFxODFjPagNI=" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29tcHV0ZXIlMjBsYWJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29tcHV0ZXIlMjBsYWJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      <section id="features">
+        <h1>Awsome Features</h1>
+        <p>This Education Policy getting 100% Knowledge About Computer.</p>
+        <div class="fea-base">
+            <i class='bx bxs-graduation'></i>
+            <h3>Scholarship Facility</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur iste, sint voluptatum reprehenderit libero, soluta consectetur dolore eos in cupiditate quam perspiciatis sed ipsam natus cum molestias, nostrum reiciendis nulla.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quasi, saepe consequuntur quas sed sunt quod nulla consectetur at nemo odio explicabo dolore facilis veritatis quae similique qui? Ducimus, cupiditate?</p>
+        </div><br>
+        <div class="fea-base">
+            <i class='bx bx-desktop'></i>
+            <h3>Ofiline Learning</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur iste, sint voluptatum reprehenderit libero, soluta consectetur dolore eos in cupiditate quam perspiciatis sed ipsam natus cum molestias, nostrum reiciendis nulla.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ullam, saepe non voluptate amet quas quia ea nulla voluptas mollitia sunt cupiditate culpa explicabo, suscipit eaque recusandae minima ratione ipsam.
+            </p>
+        </div><br>
+        <div class="fea-base">
+            <i class='bx bx-book'></i>
+            <h3>Government Certification Courses</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur iste, sint voluptatum reprehenderit libero, soluta consectetur dolore eos in cupiditate quam perspiciatis sed ipsam natus cum molestias, nostrum reiciendis nulla.</p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis eveniet dolor necessitatibus expedita provident id officia quidem, officiis dicta suscipit, harum itaque sint. Iusto modi minima maxime accusamus necessitatibus. Obcaecati?
+            </p>
+        </div><br>
+      </section>
+      <!-- +++++++++++++++++++++++++++++++++++++++++ Course Section Start ++++++++++++++++++++++++++++++++++++++++++++++ -->
+      <section id="course">
+        <h1>Our Popular Courses</h1>
+        <p>This Education Policy getting 100% Knowledge About Computer.</p>
+        <div class="course-box">
+        <div class="courses">
+            <img src="images/c-1-.jpg" alt="">
+            <div class="details">
+                <span>Updated 21/12/2022</span>
+                <h6>Ms-Cit Is The Best Computer Knowledge Course</h6>
+                <div class="star">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star'></i>
+                    <span>(968)</span>
+                </div>
+            </div>
+            <div class="price">
+                &#8377;<span>3,999</span>
+            </div>
+    </div>  
+        <div class="courses">
+            <img src="images/c-2.jpg" alt="">
+            <div class="details">
+                <span>Updated 21/12/2022</span>
+                <h6>Ms-Cit Is The Best Computer Knowledge Course</h6>
+                <div class="star">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star'></i>
+                    <span>(968)</span>
+                </div>
+            </div>
+            <div class="price">
+                &#8377;<span>3,999</span>
+            </div>
+        </div>   
+        <div class="courses">
+            <img src="images/c-3.png" alt="">
+            <div class="details">
+                <span>Updated 21/12/2022</span>
+                <h6>Ms-Cit Is The Best Computer Knowledge Course</h6>
+                <div class="star">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star'></i>
+                    <span>(968)</span>
+                </div>
+            </div>
+            <div class="price">
+                &#8377;<span>3,999</span>
+            </div>
+        </div>
+    </div>
+      </section>
+      <section class="counter-section">
+        <div class="row text-center">
+            <div class=" counter-box">
+                <div class="c-icon"><i class='bx bxs-graduation trophy'></i></div>
+                <div class="counter">15,000</div>
+                <p>LEARNING STUDENT'S</p>
+            </div>
+            <div class="row text-center">
+                <div class=" counter-box">
+                    <div class="c-icon"><i class='bx bx-trophy trophy'></i></div>
+                    <div class="counter percent">100</div>
+                    <p>RESULT OUR CLASS</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class=" counter-box">
+                    <div class="c-icon"><i class='bx bxs-award trophy'></i></div>
+                    <div class="counter">5000</div>
+                    <p>WINER'S AND REWORD'S</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class=" counter-box">
+                    <div class="c-icon"><i class='bx bx-male trophy'></i></div>
+                    <div class="counter">4</div>
+                    <p>OUR CLASS TEACHER'S</p>
+                </div>
+            </div>
+        </div>
+      </section>
+   </main>
+<!-- +++++++++++++++++++++++++++++++++++++++++ Footer Section Start +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<footer class="footer">
+    <div class="footer-left">
+        <img src="images/Logo.jpg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptatibus et cum enim dignissimos, quas labore exercitationem nostrum a soluta animi recusandae, nihil necessitatibus quia saepe tempora ratione fugiat rem!</p>
+        <div class="socials">
+            <a href="https://www.youtube.com/channel/UCbSLtD79OqdJ-EGYf3N_GRA" target="_blank"><i class='bx bxl-youtube i_icon'></i></a>
+            <a href="https://www.messenger.com/t/jack.malbon.3"" target="_blank"><i class='bx bxl-facebook i_icon'></i></a>
+            <a href="https://telegram.me/adityagaikwad"" target="_blank"><i class='bx bxl-telegram i_icon'></i></a>
+            <a href="https://wa.me/<+917219566298>" target="_blank"><i class='bx bxl-whatsapp i_icon'></i></a>
+            <a href="#"><i class='bx bxl-twitter i_icon'></i></a>
+     
+        </div>
+    </div><br>
+    <ul class="footer-middle">
+        <li>
+            <h2>Product</h2>
+            <ul class="box">
+                <li><a href="#">Profesional Teaching</a></li>
+                <li><a href="#">Awsome Computer Lab</a></li>
+                <li><a href="#">Projecter Learning</a></li>
+                <li><a href="#">Graphic Design</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="features">
+        <li>
+            <h2>Useful Links</h2>
+            <ul class="box">
+                <li><a href="#">Naukari.com</a></li>
+                <li><a href="#">Certification</a></li>
+                <li><a href="#">Web Designer</a></li>
+                <li><a href="#">Customer Services</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="rigth">
+        <li>
+            <h2>Address</h2>
+            <ul class="box">
+                <li><a href="#">416230, Near Hotel Surabhi</a></li>
+                <li><a href="#">Main Road, Kotoli,</a></li>
+                <li><a href="#">Talpanhala,</a></li>
+                <li><a href="#">Kolhapur</a></li>
+            </ul>
+        </li>
+    </ul>
+</footer>
+<div class="footer-bottom">
+    <hr>
+    <h3>All Right reserved by &copy;2023 Perfect Computer's.</h3>
+    <h3>Designed and Developed by <span> <a href="https://www.youtube.com/channel/UCbSLtD79OqdJ-EGYf3N_GRA" target="_blank">Aditya</a></span></h3>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
